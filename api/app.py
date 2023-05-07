@@ -10,7 +10,6 @@ app = Flask(__name__)
 CORS(app)
 
 @app.route("/")
-@cross_origin()
 def index():
     with open('static/data.json') as f:
         json_data = json.load(f)
