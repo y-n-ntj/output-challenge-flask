@@ -1,0 +1,5 @@
+beautifulsoup4
+requests
+webdriver_manager
+selenium==4.7.0
+gunicorn
