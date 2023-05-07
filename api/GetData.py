@@ -78,7 +78,7 @@ def get_table():
     return table
 
 def write_data():
-    path = './data.json'
+    path = 'static/data.json'
     with open(path, 'w') as f:
         f.write(json.dumps(get_table()))
 
